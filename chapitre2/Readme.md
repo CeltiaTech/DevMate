@@ -1,5 +1,7 @@
 # Programmez avec Ollama : Chapitre 2 – Conserver le contexte d'une conversation
 
+![1786267527028](images/Readme/1786267527028.png)
+
 ### Introduction
 
 Dans le chapitre précédent, nous avons appris à dialoguer avec un modèle de langage grâce à Ollama.
