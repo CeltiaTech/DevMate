@@ -90,11 +90,15 @@ Les grandes plateformes d’IA utilisent largement ce type de mécanisme pour op
 
 ### En résumé
 
-Le choix du modèle ne devrait pas être laissé à l’utilisateur.
+Notre assistant est désormais capable de choisir automatiquement le modèle le plus adapté à chaque demande.
 
-En quelques lignes de Python, nous avons rendu notre assistant capable de sélectionner automatiquement le modèle le plus adapté à chaque demande.
+L’utilisateur n’a plus besoin de connaître les différents modèles installés ni de décider lequel utiliser. Cette logique appartient désormais à l’application, qui peut évoluer au fil du temps en ajoutant de nouvelles règles ou en prenant en compte d’autres critères.
 
-Cette logique de routage constitue une première étape vers des assistants plus intelligents, capables d’exploiter les forces de plusieurs modèles sans que l’utilisateur ait à s’en préoccuper.
+Nous avons ainsi franchi une nouvelle étape dans la construction de **DevMate**. Notre assistant sait maintenant conserver le contexte d’une conversation et sélectionner le modèle le plus pertinent en fonction de la tâche à accomplir.
 
-Dans le prochain chapitre, nous découvrirons comment demander à un LLM de produire des ​**réponses structurées au format JSON**​, afin de récupérer des données directement exploitables dans nos programmes.
+Mais il reste encore un point à améliorer.
+
+Lorsqu’une question est envoyée à Ollama, notre application attend que le modèle ait terminé de générer toute sa réponse avant de l’afficher. Pour les réponses les plus longues, cette attente peut donner l’impression que l’application ne fait rien.
+
+Dans le prochain chapitre, nous verrons comment utiliser le **streaming** pour afficher les réponses au fur et à mesure de leur génération, et offrir à DevMate une expérience utilisateur beaucoup plus fluide et réactive.
 
