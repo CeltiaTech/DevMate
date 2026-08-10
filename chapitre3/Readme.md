@@ -100,5 +100,5 @@ Mais il reste encore un point à améliorer.
 
 Lorsqu’une question est envoyée à Ollama, notre application attend que le modèle ait terminé de générer toute sa réponse avant de l’afficher. Pour les réponses les plus longues, cette attente peut donner l’impression que l’application ne fait rien.
 
-Dans le prochain chapitre, nous verrons comment utiliser le **streaming** pour afficher les réponses au fur et à mesure de leur génération, et offrir à DevMate une expérience utilisateur beaucoup plus fluide et réactive.
+Dans le prochain chapitre, nous verrons comment utiliser le **streaming** pour afficher les réponses au fur et à mesure de leur génération, et offrir à DevMate une expérience utilisateur beaucoup plus fluide et réactive.![1786343115401](images/Readme/1786343115401.png)
 
